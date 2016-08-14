@@ -30,10 +30,6 @@
             android:name=".TestService"
             android:enabled="true"
             android:exported="true">
-            <intent-filter>
-                <action android:name="com.nauto.testlifecycle.START_SERVICE"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </service>
     </application>
 
