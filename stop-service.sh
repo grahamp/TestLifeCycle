@@ -1,1 +1,1 @@
-adb shell am startservice -n com.nauto.testlifecycle/.TestService
+adb shell am stopservice -n com.nauto.testlifecycle/.TestService

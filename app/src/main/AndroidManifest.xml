@@ -12,7 +12,6 @@
         <activity android:name=".TestActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
@@ -23,7 +22,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="com.nauto.testlifecycle.TEST"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </receiver>
@@ -34,7 +32,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="com.nauto.testlifecycle.START_SERVICE"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </service>
