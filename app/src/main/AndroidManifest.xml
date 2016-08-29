@@ -25,7 +25,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </receiver>
-
+        <service
+            android:process=":Service2"
+            android:name=".TestService2"
+            android:enabled="true"
+            android:exported="true">
+        </service>
         <service
             android:name=".TestService"
             android:enabled="true"
